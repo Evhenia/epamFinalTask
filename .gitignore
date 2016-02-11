@@ -185,5 +185,5 @@ $RECYCLE.BIN/
 
 # Other
 .vs
-PeriodicalsStore.Web/wwwroot/libs
+libs/
 
