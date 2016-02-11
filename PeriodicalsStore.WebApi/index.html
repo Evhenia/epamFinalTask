@@ -1,8 +1,9 @@
 ﻿<!DOCTYPE html>
 <html ng-app="periodicalsStore">
 <head>
+    <base href="/">
     <title></title>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
     <!--libs-->
     <link href="/wwwroot/libs/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
     <!--custom-->
@@ -14,12 +15,24 @@
     <div ng-controller="indexCtrl">
         <span>{{testHello}}</span>
     </div>
+
+    <div ui-view></div>
+    <!-- Also a way to navigate -->
+
+    <a ui-sref="view1">Route 1</a>
+    <a ui-sref="view2">Route 2</a>
+
     <!--libs-->
     <script src="/wwwroot/libs/angular/angular.js"></script>
+    <script src="/wwwroot/libs/jquery/dist/jquery.js"></script>
+    <script src="/wwwroot/libs/angular-ui-router/release/angular-ui-router.js"></script>
     <script src="/wwwroot/libs/bootstrap/dist/js/bootstrap.js"></script>
     <!--custom-->
     <script src="/wwwroot/scripts/app.js"></script>
+    <script src="/wwwroot/scripts/config.js"></script>
     <script src="/wwwroot/scripts/controllers/index.js"></script>
+    <script src="/wwwroot/scripts/controllers/controller1.js"></script>
+    <script src="/wwwroot/scripts/controllers/controller2.js"></script>
 </body>
 </html>
 
