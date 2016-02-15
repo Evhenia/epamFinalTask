@@ -161,6 +161,12 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="wwwroot\css\index.css" />
+    <Content Include="wwwroot\libs\angular-ui-router\.bower.json" />
+    <Content Include="wwwroot\libs\angular-ui-router\bower.json" />
+    <Content Include="wwwroot\libs\angular-ui-router\CHANGELOG.md" />
+    <Content Include="wwwroot\libs\angular-ui-router\CONTRIBUTING.md" />
+    <Content Include="wwwroot\libs\angular-ui-router\LICENSE" />
+    <Content Include="wwwroot\libs\angular-ui-router\README.md" />
     <Content Include="wwwroot\libs\angular-ui-router\release\angular-ui-router.js" />
     <Content Include="wwwroot\libs\angular-ui-router\release\angular-ui-router.min.js" />
     <Content Include="wwwroot\libs\angular-ui-router\src\common.js" />
@@ -174,24 +180,50 @@
     <Content Include="wwwroot\libs\angular-ui-router\src\view.js" />
     <Content Include="wwwroot\libs\angular-ui-router\src\viewDirective.js" />
     <Content Include="wwwroot\libs\angular-ui-router\src\viewScroll.js" />
+    <Content Include="wwwroot\libs\angular\.bower.json" />
     <Content Include="wwwroot\libs\angular\angular-csp.css" />
     <Content Include="wwwroot\libs\angular\angular.js" />
     <Content Include="wwwroot\libs\angular\angular.min.js" />
+    <Content Include="wwwroot\libs\angular\angular.min.js.gzip" />
+    <Content Include="wwwroot\libs\angular\angular.min.js.map" />
+    <Content Include="wwwroot\libs\angular\bower.json" />
     <Content Include="wwwroot\libs\angular\index.js" />
+    <Content Include="wwwroot\libs\angular\package.json" />
+    <Content Include="wwwroot\libs\angular\README.md" />
+    <Content Include="wwwroot\libs\bootstrap\.bower.json" />
+    <Content Include="wwwroot\libs\bootstrap\bower.json" />
+    <Content Include="wwwroot\libs\bootstrap\CHANGELOG.md" />
     <Content Include="wwwroot\libs\bootstrap\dist\css\bootstrap-theme.css" />
+    <Content Include="wwwroot\libs\bootstrap\dist\css\bootstrap-theme.css.map" />
     <Content Include="wwwroot\libs\bootstrap\dist\css\bootstrap-theme.min.css" />
+    <Content Include="wwwroot\libs\bootstrap\dist\css\bootstrap-theme.min.css.map" />
     <Content Include="wwwroot\libs\bootstrap\dist\css\bootstrap.css" />
+    <Content Include="wwwroot\libs\bootstrap\dist\css\bootstrap.css.map" />
     <Content Include="wwwroot\libs\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="wwwroot\libs\bootstrap\dist\css\bootstrap.min.css.map" />
+    <Content Include="wwwroot\libs\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="wwwroot\libs\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="wwwroot\libs\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="wwwroot\libs\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="wwwroot\libs\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="wwwroot\libs\bootstrap\dist\js\bootstrap.js" />
     <Content Include="wwwroot\libs\bootstrap\dist\js\bootstrap.min.js" />
     <Content Include="wwwroot\libs\bootstrap\dist\js\npm.js" />
+    <Content Include="wwwroot\libs\bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="wwwroot\libs\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="wwwroot\libs\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="wwwroot\libs\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="wwwroot\libs\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="wwwroot\libs\bootstrap\Gruntfile.js" />
+    <Content Include="wwwroot\libs\bootstrap\grunt\.jshintrc" />
     <Content Include="wwwroot\libs\bootstrap\grunt\bs-commonjs-generator.js" />
     <Content Include="wwwroot\libs\bootstrap\grunt\bs-glyphicons-data-generator.js" />
     <Content Include="wwwroot\libs\bootstrap\grunt\bs-lessdoc-parser.js" />
     <Content Include="wwwroot\libs\bootstrap\grunt\bs-raw-files-generator.js" />
+    <Content Include="wwwroot\libs\bootstrap\grunt\configBridge.json" />
+    <Content Include="wwwroot\libs\bootstrap\grunt\sauce_browsers.yml" />
+    <Content Include="wwwroot\libs\bootstrap\js\.jscsrc" />
+    <Content Include="wwwroot\libs\bootstrap\js\.jshintrc" />
     <Content Include="wwwroot\libs\bootstrap\js\affix.js" />
     <Content Include="wwwroot\libs\bootstrap\js\alert.js" />
     <Content Include="wwwroot\libs\bootstrap\js\button.js" />
@@ -204,11 +236,95 @@
     <Content Include="wwwroot\libs\bootstrap\js\tab.js" />
     <Content Include="wwwroot\libs\bootstrap\js\tooltip.js" />
     <Content Include="wwwroot\libs\bootstrap\js\transition.js" />
+    <Content Include="wwwroot\libs\bootstrap\less\.csscomb.json" />
+    <Content Include="wwwroot\libs\bootstrap\less\.csslintrc" />
+    <Content Include="wwwroot\libs\bootstrap\less\alerts.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\badges.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\bootstrap.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\breadcrumbs.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\button-groups.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\buttons.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\carousel.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\close.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\code.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\component-animations.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\dropdowns.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\forms.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\glyphicons.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\grid.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\input-groups.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\jumbotron.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\labels.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\list-group.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\media.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\alerts.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\background-variant.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\border-radius.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\buttons.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\center-block.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\clearfix.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\forms.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\gradients.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\grid-framework.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\grid.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\hide-text.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\image.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\labels.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\list-group.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\nav-divider.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\nav-vertical-align.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\opacity.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\pagination.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\panels.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\progress-bar.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\reset-filter.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\reset-text.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\resize.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\responsive-visibility.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\size.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\tab-focus.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\table-row.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\text-emphasis.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\text-overflow.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\mixins\vendor-prefixes.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\modals.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\navbar.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\navs.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\normalize.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\pager.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\pagination.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\panels.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\popovers.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\print.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\progress-bars.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\responsive-embed.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\responsive-utilities.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\scaffolding.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\tables.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\theme.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\thumbnails.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\tooltip.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\type.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\utilities.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\variables.less" />
+    <Content Include="wwwroot\libs\bootstrap\less\wells.less" />
+    <Content Include="wwwroot\libs\bootstrap\LICENSE" />
+    <Content Include="wwwroot\libs\bootstrap\nuget\bootstrap.less.nuspec" />
+    <Content Include="wwwroot\libs\bootstrap\nuget\bootstrap.nuspec" />
+    <Content Include="wwwroot\libs\bootstrap\nuget\MyGet.ps1" />
     <Content Include="wwwroot\libs\bootstrap\package.js" />
+    <Content Include="wwwroot\libs\bootstrap\package.json" />
+    <Content Include="wwwroot\libs\bootstrap\README.md" />
+    <Content Include="wwwroot\libs\jquery\.bower.json" />
     <Content Include="wwwroot\libs\jquery\AUTHORS.txt" />
+    <Content Include="wwwroot\libs\jquery\bower.json" />
     <Content Include="wwwroot\libs\jquery\dist\jquery.js" />
     <Content Include="wwwroot\libs\jquery\dist\jquery.min.js" />
+    <Content Include="wwwroot\libs\jquery\dist\jquery.min.map" />
     <Content Include="wwwroot\libs\jquery\LICENSE.txt" />
+    <Content Include="wwwroot\libs\jquery\README.md" />
+    <Content Include="wwwroot\libs\jquery\src\.jshintrc" />
     <Content Include="wwwroot\libs\jquery\src\ajax.js" />
     <Content Include="wwwroot\libs\jquery\src\ajax\jsonp.js" />
     <Content Include="wwwroot\libs\jquery\src\ajax\load.js" />
@@ -323,351 +439,13 @@
     <Content Include="wwwroot\views\view2.html" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="wwwroot\libs\angular\.bower.json" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\angular\angular.min.js.gzip" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\angular\angular.min.js.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\angular\bower.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\angular\package.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\angular\README.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\.bower.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\bower.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\CHANGELOG.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\dist\css\bootstrap-theme.css.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\dist\css\bootstrap-theme.min.css.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\dist\css\bootstrap.css.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\dist\css\bootstrap.min.css.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\fonts\glyphicons-halflings-regular.eot" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\fonts\glyphicons-halflings-regular.woff" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\grunt\.jshintrc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\grunt\configBridge.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\grunt\sauce_browsers.yml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\js\.jscsrc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\js\.jshintrc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\.csscomb.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\.csslintrc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\alerts.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\badges.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\bootstrap.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\breadcrumbs.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\button-groups.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\buttons.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\carousel.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\close.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\code.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\component-animations.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\dropdowns.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\forms.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\glyphicons.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\grid.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\input-groups.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\jumbotron.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\labels.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\list-group.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\media.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\alerts.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\background-variant.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\border-radius.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\buttons.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\center-block.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\clearfix.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\forms.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\gradients.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\grid-framework.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\grid.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\hide-text.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\image.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\labels.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\list-group.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\nav-divider.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\nav-vertical-align.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\opacity.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\pagination.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\panels.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\progress-bar.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\reset-filter.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\reset-text.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\resize.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\responsive-visibility.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\size.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\tab-focus.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\table-row.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\text-emphasis.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\text-overflow.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins\vendor-prefixes.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\mixins.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\modals.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\navbar.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\navs.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\normalize.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\pager.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\pagination.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\panels.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\popovers.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\print.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\progress-bars.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\responsive-embed.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\responsive-utilities.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\scaffolding.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\tables.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\theme.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\thumbnails.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\tooltip.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\type.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\utilities.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\variables.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\less\wells.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\LICENSE" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\nuget\bootstrap.less.nuspec" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\nuget\bootstrap.nuspec" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\nuget\MyGet.ps1" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\package.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\bootstrap\README.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\jquery\.bower.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\jquery\bower.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\jquery\dist\jquery.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\jquery\README.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\jquery\src\.jshintrc" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".bowerrc" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="bower.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\libs\angular-ui-router\.bower.json" />
-    <Content Include="wwwroot\libs\angular-ui-router\bower.json" />
-    <Content Include="wwwroot\libs\angular-ui-router\CHANGELOG.md" />
-    <Content Include="wwwroot\libs\angular-ui-router\CONTRIBUTING.md" />
-    <Content Include="wwwroot\libs\angular-ui-router\LICENSE" />
-    <Content Include="wwwroot\libs\angular-ui-router\README.md" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
