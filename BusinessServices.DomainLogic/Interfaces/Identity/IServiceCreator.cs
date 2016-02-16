@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessServices.DomainLogic.Interfaces.Identity
 {
-    interface IServiceCreator
+    public interface IServiceCreator
     {
         IUserService CreateUserService();
     }
