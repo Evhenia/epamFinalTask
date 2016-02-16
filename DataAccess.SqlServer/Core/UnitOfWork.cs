@@ -40,7 +40,37 @@ namespace DataAccess.SqlServer.Core
 
         public IPeriodicalRepository PeriodicalRepository => _periodicalRepository ?? (_periodicalRepository = new PeriodicalRepository(_context));
 
-        public IThemeRepository 
+        public IThemeRepository ThemeRepository => _themeRepository ?? (_themeRepository = new ThemeRepository(_context));
 
+        public ISubscriptionRepository SubscriptionRepository => _subscriptionRepository ?? (_subscriptionRepository = new SubscriptionRepository(_context));
+
+        public IMoneyAccountRepository MoneyAccountRepository => _moneyAccountRepository ?? (_moneyAccountRepository = new MoneyAccountRepository(_context));
+
+        public IPaymentRepository PaymentRepository => _paymentRepository ?? (_paymentRepository = new PaymentRepository(_context));
+        
+        public void Save()
+        {
+            _context.SaveChanges();
+        }
+
+        private bool _disposed = false;
+
+        private void Dispose(bool disposing)
+        {
+            if (!_disposed)
+            {
+                if (disposing)
+                {
+                    _context.Dispose();
+                }
+            }
+            _disposed = true;
+        }
+
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
     }
 }
