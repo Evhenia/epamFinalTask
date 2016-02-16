@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity.EntityFramework;
+using System.ComponentModel.DataAnnotations;
 
 namespace Common.Entities
 {
@@ -13,7 +14,7 @@ namespace Common.Entities
 
         public Address Address { get; set; }
 
-        public int MoneyAccountId { get; set; }
+        [Required]
         public virtual MoneyAccount MoneyAccount { get; set; }
 
         public virtual ICollection<Subscription> Subscriptions { get; set; }

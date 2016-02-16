@@ -6,10 +6,10 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.AspNet.Identity;
 
 
-[assembly: OwinStartup(typeof(PeriodicalsStore.WebApi.App_Start.Startup))]
+[assembly: OwinStartup(typeof(PeriodicalsStore.WebApi.Startup))]
 
-namespace PeriodicalsStore.WebApi.App_Start
-{
+namespace PeriodicalsStore.WebApi
+{ 
     public class Startup
     {
         readonly IServiceCreator _serviceCreator = new ServiceCreator();

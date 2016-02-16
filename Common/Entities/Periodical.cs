@@ -22,14 +22,22 @@ namespace Common.Entities
 
         public string Language { get; set; }
 
-        public int TimesAMonth { get; set; }
+        public int TimesAPeriod { get; set; }
 
-        //public string Publisher { get; set; }
+        public Period Period { get; set; }
 
         public string ImagePath { get; set; }
 
         public virtual ICollection<Theme> Themes { get; set; }
 
         public virtual ICollection<Subscription> Subscriptions { get; set; }
+    }
+
+    public enum Period : byte
+    {
+        Day =1,
+        Week = 2,
+        Month = 3, 
+        HalfAYear = 4
     }
 }

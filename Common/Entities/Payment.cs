@@ -14,7 +14,7 @@ namespace Common.Entities
 
         public DateTime Date { get; set; }
 
-        public int MoneyAccountId { get; set; }
+        public string MoneyAccountId { get; set; }
         public MoneyAccount MoneyAccount { get; set; }
     }
 }
