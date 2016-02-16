@@ -5,8 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DataAccess.SqlServer.Interfaces;
+using DataAccess.SqlServer.Core;
 
-namespace DataAccess.SqlServer.Core
+namespace DataAccess.SqlServer.Repositories
 {
     public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
     {

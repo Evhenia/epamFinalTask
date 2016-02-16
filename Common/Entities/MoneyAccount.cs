@@ -13,5 +13,8 @@ namespace Common.Entities
         public decimal Count { get; set; }
 
         public virtual ICollection<Payment> Payments { get; set; }
+
+        public string UserId { get; set; }
+        public virtual User User { get; set; }
     }
 }
