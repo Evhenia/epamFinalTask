@@ -1,6 +1,7 @@
 ﻿using System.Data.Entity;
 using Common.Entities;
 using Microsoft.AspNet.Identity.EntityFramework;
+using System.Data.Entity.ModelConfiguration.Conventions;
 
 namespace DataAccess.SqlServer.Core
 {
@@ -21,5 +22,11 @@ namespace DataAccess.SqlServer.Core
         public DbSet<MoneyAccount> MoneyAccounts { get; set; }
 
         public DbSet<Payment> Payments { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+            modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
+        }
     }
 }

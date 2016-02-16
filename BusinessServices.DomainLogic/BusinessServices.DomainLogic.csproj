@@ -52,11 +52,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\Identity\IUserService.cs" />
+    <Compile Include="Interfaces\Services\IEntityService.cs" />
+    <Compile Include="Interfaces\Services\IMoneyAccountService.cs" />
+    <Compile Include="Interfaces\Services\IPaymentService.cs" />
+    <Compile Include="Interfaces\Services\IPeriodicalService.cs" />
+    <Compile Include="Interfaces\Services\ISubscriptionService.cs" />
+    <Compile Include="Interfaces\Services\IThemeService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{d7d47e78-c163-4361-92df-fc8a5a65a145}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccess.SqlServer\DataAccess.SqlServer.csproj">
+      <Project>{7da7cae5-3b92-4eb1-84b2-0e564ab910ff}</Project>
+      <Name>DataAccess.SqlServer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
