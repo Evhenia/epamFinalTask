@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessServices.DomainLogic.Models
 {
-    public class User
+    public class AuthUser
     {
         public string Id { get; set; }
 

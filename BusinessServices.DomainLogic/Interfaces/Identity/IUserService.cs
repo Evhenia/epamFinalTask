@@ -10,8 +10,8 @@ namespace BusinessServices.DomainLogic.Interfaces.Identity
 {
     public interface IUserService : IDisposable
     {
-        Task<OperationDetails> Create(User userDto);
+        Task<OperationDetails> Create(AuthUser userDto);
 
-        Task<ClaimsIdentity> Authenticate(User userDto);
+        Task<ClaimsIdentity> Authenticate(AuthUser userDto);
     }
 }
