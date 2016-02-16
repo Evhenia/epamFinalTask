@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\Identity\IServiceCreator.cs" />
     <Compile Include="Interfaces\Identity\IUserService.cs" />
     <Compile Include="Interfaces\Services\IEntityService.cs" />
     <Compile Include="Interfaces\Services\IMoneyAccountService.cs" />
@@ -59,6 +60,8 @@
     <Compile Include="Interfaces\Services\IPeriodicalService.cs" />
     <Compile Include="Interfaces\Services\ISubscriptionService.cs" />
     <Compile Include="Interfaces\Services\IThemeService.cs" />
+    <Compile Include="Models\OperationDetails.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -75,9 +78,7 @@
       <Name>DataAccess.SqlServer</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
