@@ -223,34 +223,6 @@
     <Compile Include="App_Start\Startup.cs" />
     <Compile Include="App_Start\UnityConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Areas\HelpPage\ApiDescriptionExtensions.cs" />
-    <Compile Include="Areas\HelpPage\App_Start\HelpPageConfig.cs" />
-    <Compile Include="Areas\HelpPage\Controllers\HelpController.cs" />
-    <Compile Include="Areas\HelpPage\HelpPageAreaRegistration.cs" />
-    <Compile Include="Areas\HelpPage\HelpPageConfigurationExtensions.cs" />
-    <Compile Include="Areas\HelpPage\ModelDescriptions\CollectionModelDescription.cs" />
-    <Compile Include="Areas\HelpPage\ModelDescriptions\ComplexTypeModelDescription.cs" />
-    <Compile Include="Areas\HelpPage\ModelDescriptions\DictionaryModelDescription.cs" />
-    <Compile Include="Areas\HelpPage\ModelDescriptions\EnumTypeModelDescription.cs" />
-    <Compile Include="Areas\HelpPage\ModelDescriptions\EnumValueDescription.cs" />
-    <Compile Include="Areas\HelpPage\ModelDescriptions\IModelDocumentationProvider.cs" />
-    <Compile Include="Areas\HelpPage\ModelDescriptions\KeyValuePairModelDescription.cs" />
-    <Compile Include="Areas\HelpPage\ModelDescriptions\ModelDescription.cs" />
-    <Compile Include="Areas\HelpPage\ModelDescriptions\ModelDescriptionGenerator.cs" />
-    <Compile Include="Areas\HelpPage\ModelDescriptions\ModelNameAttribute.cs" />
-    <Compile Include="Areas\HelpPage\ModelDescriptions\ModelNameHelper.cs" />
-    <Compile Include="Areas\HelpPage\ModelDescriptions\ParameterAnnotation.cs" />
-    <Compile Include="Areas\HelpPage\ModelDescriptions\ParameterDescription.cs" />
-    <Compile Include="Areas\HelpPage\ModelDescriptions\SimpleTypeModelDescription.cs" />
-    <Compile Include="Areas\HelpPage\Models\HelpPageApiModel.cs" />
-    <Compile Include="Areas\HelpPage\SampleGeneration\HelpPageSampleGenerator.cs" />
-    <Compile Include="Areas\HelpPage\SampleGeneration\HelpPageSampleKey.cs" />
-    <Compile Include="Areas\HelpPage\SampleGeneration\ImageSample.cs" />
-    <Compile Include="Areas\HelpPage\SampleGeneration\InvalidSample.cs" />
-    <Compile Include="Areas\HelpPage\SampleGeneration\ObjectGenerator.cs" />
-    <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
-    <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
-    <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\MoneyAccountController.cs" />
     <Compile Include="Controllers\PaymentController.cs" />
@@ -268,7 +240,6 @@
     <Compile Include="Services\ModelToDto.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="index.html" />
@@ -283,6 +254,13 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="wwwroot\css\index.css" />
+    <Content Include="wwwroot\libs\angular-bootstrap\.gitignore" />
+    <Content Include="wwwroot\libs\angular-bootstrap\index.js" />
+    <Content Include="wwwroot\libs\angular-bootstrap\ui-bootstrap-csp.css" />
+    <Content Include="wwwroot\libs\angular-bootstrap\ui-bootstrap-tpls.js" />
+    <Content Include="wwwroot\libs\angular-bootstrap\ui-bootstrap-tpls.min.js" />
+    <Content Include="wwwroot\libs\angular-bootstrap\ui-bootstrap.js" />
+    <Content Include="wwwroot\libs\angular-bootstrap\ui-bootstrap.min.js" />
     <Content Include="wwwroot\libs\angular-ui-router\.bower.json" />
     <Content Include="wwwroot\libs\angular-ui-router\bower.json" />
     <Content Include="wwwroot\libs\angular-ui-router\CHANGELOG.md" />
@@ -552,6 +530,136 @@
     <Content Include="wwwroot\libs\jquery\src\var\support.js" />
     <Content Include="wwwroot\libs\jquery\src\var\toString.js" />
     <Content Include="wwwroot\libs\jquery\src\wrap.js" />
+    <Content Include="wwwroot\libs\lodash\.gitattributes" />
+    <Content Include="wwwroot\libs\lodash\.gitignore" />
+    <Content Include="wwwroot\libs\lodash\dist\lodash.core.js" />
+    <Content Include="wwwroot\libs\lodash\dist\lodash.core.min.js" />
+    <Content Include="wwwroot\libs\lodash\dist\lodash.fp.js" />
+    <Content Include="wwwroot\libs\lodash\dist\lodash.fp.min.js" />
+    <Content Include="wwwroot\libs\lodash\dist\lodash.js" />
+    <Content Include="wwwroot\libs\lodash\dist\lodash.min.js" />
+    <Content Include="wwwroot\libs\lodash\dist\mapping.fp.js" />
+    <Content Include="wwwroot\libs\lodash\fp\_baseConvert.js" />
+    <Content Include="wwwroot\libs\lodash\fp\_convertBrowser.js" />
+    <Content Include="wwwroot\libs\lodash\fp\_mapping.js" />
+    <Content Include="wwwroot\libs\lodash\lib\common\minify.js" />
+    <Content Include="wwwroot\libs\lodash\lib\common\uglify.options.js" />
+    <Content Include="wwwroot\libs\lodash\lib\common\util.js" />
+    <Content Include="wwwroot\libs\lodash\lib\fp\build-dist.js" />
+    <Content Include="wwwroot\libs\lodash\lib\fp\build-doc.js" />
+    <Content Include="wwwroot\libs\lodash\lib\fp\build-modules.js" />
+    <Content Include="wwwroot\libs\lodash\lib\main\build-dist.js" />
+    <Content Include="wwwroot\libs\lodash\lib\main\build-doc.js" />
+    <Content Include="wwwroot\libs\lodash\lib\main\build-modules.js" />
+    <Content Include="wwwroot\libs\lodash\lodash.js" />
+    <Content Include="wwwroot\libs\lodash\perf\asset\perf-ui.js" />
+    <Content Include="wwwroot\libs\lodash\perf\index.html" />
+    <Content Include="wwwroot\libs\lodash\perf\perf.js" />
+    <Content Include="wwwroot\libs\lodash\test\asset\test-ui.js" />
+    <Content Include="wwwroot\libs\lodash\test\asset\worker.js" />
+    <Content Include="wwwroot\libs\lodash\test\backbone.html" />
+    <Content Include="wwwroot\libs\lodash\test\fp.html" />
+    <Content Include="wwwroot\libs\lodash\test\index.html" />
+    <Content Include="wwwroot\libs\lodash\test\remove.js" />
+    <Content Include="wwwroot\libs\lodash\test\saucelabs.js" />
+    <Content Include="wwwroot\libs\lodash\test\test-fp.js" />
+    <Content Include="wwwroot\libs\lodash\test\test.js" />
+    <Content Include="wwwroot\libs\lodash\test\underscore.html" />
+    <Content Include="wwwroot\libs\lodash\vendor\backbone\backbone.js" />
+    <Content Include="wwwroot\libs\lodash\vendor\backbone\test\collection.js" />
+    <Content Include="wwwroot\libs\lodash\vendor\backbone\test\events.js" />
+    <Content Include="wwwroot\libs\lodash\vendor\backbone\test\model.js" />
+    <Content Include="wwwroot\libs\lodash\vendor\backbone\test\noconflict.js" />
+    <Content Include="wwwroot\libs\lodash\vendor\backbone\test\router.js" />
+    <Content Include="wwwroot\libs\lodash\vendor\backbone\test\setup\dom-setup.js" />
+    <Content Include="wwwroot\libs\lodash\vendor\backbone\test\setup\environment.js" />
+    <Content Include="wwwroot\libs\lodash\vendor\backbone\test\sync.js" />
+    <Content Include="wwwroot\libs\lodash\vendor\backbone\test\view.js" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\license.txt" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\blank.gif" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\buttonBg.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\buttonBgHover.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\debugger.css" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\detach.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\detachHover.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\disable.gif" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\disable.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\disableHover.gif" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\disableHover.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\down.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\downActive.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\downHover.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\errorIcon-sm.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\errorIcon.gif" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\errorIcon.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\firebug-1.3a2.css" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\firebug.css" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\firebug.html" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\firebug.IE6.css" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\firebug.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\group.gif" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\html.css" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\infoIcon.gif" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\infoIcon.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\loading_16.gif" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\min.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\minHover.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\off.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\offHover.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\pixel_transparent.gif" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\roundCorner.svg" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\search.gif" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\search.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\shadow.gif" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\shadow2.gif" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\shadowAlpha.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\sprite.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\tabHoverLeft.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\tabHoverMid.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\tabHoverRight.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\tabLeft.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\tabMenuCheckbox.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\tabMenuPin.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\tabMenuRadio.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\tabMenuTarget.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\tabMenuTargetHover.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\tabMid.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\tabRight.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\textEditorBorders.gif" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\textEditorBorders.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\textEditorCorners.gif" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\textEditorCorners.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\titlebarMid.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\toolbarMid.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\tree_close.gif" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\tree_open.gif" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\twistyClosed.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\twistyOpen.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\up.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\upActive.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\upHover.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\warningIcon.gif" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\skin\xp\warningIcon.png" />
+    <Content Include="wwwroot\libs\lodash\vendor\firebug-lite\src\firebug-lite-debug.js" />
+    <Content Include="wwwroot\libs\lodash\vendor\json-js\json2.js" />
+    <Content Include="wwwroot\libs\lodash\vendor\underscore\test\arrays.js" />
+    <Content Include="wwwroot\libs\lodash\vendor\underscore\test\chaining.js" />
+    <Content Include="wwwroot\libs\lodash\vendor\underscore\test\collections.js" />
+    <Content Include="wwwroot\libs\lodash\vendor\underscore\test\cross-document.js" />
+    <Content Include="wwwroot\libs\lodash\vendor\underscore\test\functions.js" />
+    <Content Include="wwwroot\libs\lodash\vendor\underscore\test\objects.js" />
+    <Content Include="wwwroot\libs\lodash\vendor\underscore\test\utility.js" />
+    <Content Include="wwwroot\libs\lodash\vendor\underscore\underscore-min.js" />
+    <Content Include="wwwroot\libs\lodash\vendor\underscore\underscore.js" />
+    <Content Include="wwwroot\libs\restangular\.gitignore" />
+    <Content Include="wwwroot\libs\restangular\dist\restangular.js" />
+    <Content Include="wwwroot\libs\restangular\dist\restangular.min.js" />
+    <Content Include="wwwroot\libs\restangular\Gruntfile.js" />
+    <Content Include="wwwroot\libs\restangular\karma.conf.js" />
+    <Content Include="wwwroot\libs\restangular\karma.underscore.conf.js" />
+    <Content Include="wwwroot\libs\restangular\src\restangular.js" />
+    <Content Include="wwwroot\libs\restangular\test\restangularSpec.js" />
+    <Content Include="wwwroot\scripts\api\test.js" />
     <Content Include="wwwroot\scripts\app.js" />
     <Content Include="wwwroot\scripts\config.js" />
     <Content Include="wwwroot\scripts\controllers\controller1.js" />
@@ -567,6 +675,12 @@
     <Content Include="bower.json" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\BusinessServices.DomainLogic\BusinessServices.DomainLogic.csproj">
       <Project>{5a3aa806-05c8-44f6-be95-9aa5ec3c1bb6}</Project>
       <Name>BusinessServices.DomainLogic</Name>
@@ -577,67 +691,44 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
+    <Content Include="wwwroot\libs\angular-bootstrap\.bower.json" />
+    <Content Include="wwwroot\libs\angular-bootstrap\.npmignore" />
+    <Content Include="wwwroot\libs\angular-bootstrap\bower.json" />
+    <Content Include="wwwroot\libs\angular-bootstrap\package.json" />
+    <Content Include="wwwroot\libs\angular-bootstrap\README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Areas\HelpPage\Views\Web.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Areas\HelpPage\Views\Shared\_Layout.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Areas\HelpPage\Views\Help\ResourceModel.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Areas\HelpPage\Views\Help\Index.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\TextSample.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\SimpleTypeModelDescription.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\Samples.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\Parameters.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ModelDescriptionLink.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\KeyValuePairModelDescription.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\InvalidSample.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ImageSample.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\EnumTypeModelDescription.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\DictionaryModelDescription.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ComplexTypeModelDescription.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <Content Include="wwwroot\libs\lodash\.bower.json" />
+    <Content Include="wwwroot\libs\lodash\.editorconfig" />
+    <Content Include="wwwroot\libs\lodash\.jscsrc" />
+    <Content Include="wwwroot\libs\lodash\.travis.yml" />
+    <Content Include="wwwroot\libs\lodash\CODE_OF_CONDUCT.md" />
+    <Content Include="wwwroot\libs\lodash\CONTRIBUTING.md" />
+    <Content Include="wwwroot\libs\lodash\doc\README.md" />
+    <Content Include="wwwroot\libs\lodash\lib\fp\template\doc\wiki.jst" />
+    <Content Include="wwwroot\libs\lodash\lib\fp\template\modules\alias.jst" />
+    <Content Include="wwwroot\libs\lodash\lib\fp\template\modules\category.jst" />
+    <Content Include="wwwroot\libs\lodash\lib\fp\template\modules\convert.jst" />
+    <Content Include="wwwroot\libs\lodash\lib\fp\template\modules\fp.jst" />
+    <Content Include="wwwroot\libs\lodash\lib\fp\template\modules\module.jst" />
+    <Content Include="wwwroot\libs\lodash\lib\fp\template\modules\thru.jst" />
+    <Content Include="wwwroot\libs\lodash\lib\fp\template\modules\_util.jst" />
+    <Content Include="wwwroot\libs\lodash\LICENSE" />
+    <Content Include="wwwroot\libs\lodash\package.json" />
+    <Content Include="wwwroot\libs\lodash\README.md" />
+    <Content Include="wwwroot\libs\lodash\vendor\backbone\LICENSE" />
+    <Content Include="wwwroot\libs\lodash\vendor\underscore\LICENSE" />
+    <Content Include="wwwroot\libs\restangular\.bower.json" />
+    <Content Include="wwwroot\libs\restangular\.editorconfig" />
+    <Content Include="wwwroot\libs\restangular\.jshintrc" />
+    <Content Include="wwwroot\libs\restangular\.travis.yml" />
+    <Content Include="wwwroot\libs\restangular\bower.json" />
+    <Content Include="wwwroot\libs\restangular\CHANGELOG.md" />
+    <Content Include="wwwroot\libs\restangular\CONTRIBUTE.md" />
+    <Content Include="wwwroot\libs\restangular\dist\restangular.zip" />
+    <Content Include="wwwroot\libs\restangular\license.md" />
+    <Content Include="wwwroot\libs\restangular\package.json" />
+    <Content Include="wwwroot\libs\restangular\README.md" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -4,7 +4,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
 
     $urlRouterProvider.otherwise("/view1");
     // Uncoment it to have urls without #. Exapmple: http://localhost:4597/#/view1 and http://localhost:4597/view1
-    $locationProvider.html5Mode(true);
+    //$locationProvider.html5Mode(true);
     
     $stateProvider
         .state('view1', {

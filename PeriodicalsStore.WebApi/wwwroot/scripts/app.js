@@ -1,2 +1,2 @@
-﻿var app = angular.module('periodicalsStoreApp', ["ui.router"])
+﻿var app = angular.module('periodicalsStoreApp', ["ui.router", 'restangular'])
 
