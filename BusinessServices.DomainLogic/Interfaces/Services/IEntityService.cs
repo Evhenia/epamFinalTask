@@ -8,7 +8,7 @@ namespace BusinessServices.DomainLogic.Interfaces.Services
 {
     public interface IEntityService<TEntity> where TEntity : class
     {
-        IEnumerable<TEntity> GetAllEntities();
+        IEnumerable<TEntity> GetAll();
 
         TEntity GetById(int id);
         
